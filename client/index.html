@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Book Search Engine</title>
+</head>
+<body>
+    <div id="menu">
+        <button id="searchBooks">Search for Books</button>
+        <button id="loginSignup">Login/Signup</button>
+    </div>
+    <div id="searchContainer" style="display:none;">
+        <input type="text" id="searchInput" placeholder="Search for books...">
+        <button id="submitSearch">Submit</button>
+        <div id="results"></div>
+    </div>
+    <div id="modal" style="display:none;">
+        <div id="modalContent">
+            <button id="toggleSignup">Signup</button>
+            <button id="toggleLogin">Login</button>
+            <div id="formContainer"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
